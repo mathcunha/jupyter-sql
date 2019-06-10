@@ -1,5 +1,5 @@
 # docker run -it -p 8888:8888 -v [YOUR_FOLDER]:/home/jovyan/work sm-python-bi start-notebook.sh --NotebookApp.token='[YOUR_PASSWORD]'
-FROM jupyter/datascience-notebook
+FROM jupyter/pyspark-notebook
 
 USER root
 RUN apt-get update
